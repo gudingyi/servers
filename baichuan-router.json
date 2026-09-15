@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gitee.gudingyi/baichuan-router",
+  "title": "Baichuan Router",
+  "description": "Route prompts across multiple AI models through a single MCP server. Compare results, auto-failover when models go down, and optimize for cost. Open source (Apache-2.0). BYOK or start free. No lock-in, AI for everyone.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gitee.com/gudingyi/baichuan-router",
+  "repository": {
+    "url": "https://gitee.com/gudingyi/baichuan-router",
+    "source": "gitee"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "baiduan-router",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "endpoint": "http://39.105.126.208/mcp/sse"
+}
